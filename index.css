@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#DEB887, #CD853F);
+}
+
+.container {
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    box-shadow: 20px -12px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.form-welcome {
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#8FBC8F, #808000);
+}
+
+.form-welcome img {
+    width: 90%;
+}
+
+
+.form-main {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#FFEBCD, #FFF8DC);
+    flex-direction: column;
+}
+
+
+#h1page1 {
+    text-align: center;
+    margin-bottom: 15%;
+}
+
+
+.input-box {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.slot {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+}
+
+.input_radio {
+    margin-top: 5%;
+}
+
+
+
+.original{
+    font-family: sans-seri;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.5em;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+   
+}
+
+
+.access {
+    margin-top: 10%;
+
+}
+
+
+.direcao  {
+    margin: 2%;
+    padding: 0.5em ;
+    width: 45%;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    border-style: none;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+a {  font-size: 1.2rem;
+     font-family: 'popins';
+    text-decoration:none;
+    color: #ffff;
+}
+
+footer{
+    margin: 0.5em;
+    display: flex;
+    flex-direction:column;
+}
+
+@media screen {
+    
+}

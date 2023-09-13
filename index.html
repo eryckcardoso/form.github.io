@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario desktop</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins&display=swap"
+        rel="stylesheet">
+
+    
+</head>
+
+<body>
+    <!-- tirei a fildset do role para pois usei a box-shadow para ter um efeito melhor de separação -->
+    <div class="container">
+
+        <div class="form-welcome">
+            <img src="imagens/undraw_sign_up_n6im.svg" alt="img-formulario">
+
+        </div>
+
+
+        <div class="form-main">
+            <form action="#">
+                <h1 id="h1page1">Cadastre-se</h1>
+                <!-- for="name" sendo igual ID cria melhor experiencia  -->
+                <div class="input-box">
+                    <label for="nome">Primeiro nome:</label>
+                    <input type="text"class="slot" name="name" id="nome" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="last">Sobrenome:</label>
+                    <input type="text" class="slot" name="ultimo" id="last" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="cpf">CPF:</label> 
+                    <input type="text" class="slot" name="identifica" id="cpf" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="celular">Numero de celular:</label>
+                    <input type="text" class="slot" name="contato1" id="celular" required>
+                </div>
+
+
+                <div class="input-box">
+                    <label for="mail">E-mail:</label>
+                    <input type="email" class="slot" name="emai" id="mail" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="time">Data de nascimento:</label>
+                    <input type="date" class="slot" name="tempo" id="time" required>
+                </div>
+
+                <!-- Para o Radio marcar apenas 1 box necessario possuir o mesmo name -->
+                <div class="input_radio">
+                    <label for="sex">Sexo :</label>
+                    <input type="radio" class="radio_sex" name="sexo" id="rad1mas" required>
+                    <label for="rad1mas">Masculino:</label>
+
+                    <input type="radio" class="radio_sex" name="sexo" id="rad1fem" required>
+                    <label for="rad1fem">Feminino</label>
+
+                    <input type="radio" class="radio_sex" name="sexo" id="rad1nem" required>
+                    <label for="rad1nem">Não Definido</label>
+                </div>
+                
+                        <div class="access">
+                       Já possui conta ? 
+                        <a class="direcao" id="bt_redirecionar" href="landing_page.html">
+                            
+                            Logar conta  </a>  
+                        </div>
+                    
+
+                    <!--   -->
+
+        </div>
+        <!-- div final acima -->
+        </form>
+    </div>
+    <footer>
+        <div class="original">
+            <h3>Form Corporation © 2023</h3>
+        </div>
+        
+
+    </footer>
+
+
+
+</body>
+
+</html>
